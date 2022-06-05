@@ -8,3 +8,5 @@ export const read = async () => {
 
     fs.createReadStream(filePath).pipe(stdout);
 };
+
+read();

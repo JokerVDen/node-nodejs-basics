@@ -9,3 +9,5 @@ export const spawnChildProcess = async (args) => {
         stdio: [stdin, stdout, stderr, 'ipc'],
     }).on('exit', code => process.exit(code));
 };
+
+spawnChildProcess(process.argv.slice(2));

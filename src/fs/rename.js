@@ -26,3 +26,5 @@ export const rename = async () => {
         throw new e;
     }
 };
+
+rename();

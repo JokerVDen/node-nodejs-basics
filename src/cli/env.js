@@ -9,4 +9,6 @@ export const parseEnv = () => {
     const result = rssList.join('; ')
 
     console.log(result);
-};
+}
+
+parseEnv();

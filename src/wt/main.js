@@ -35,3 +35,5 @@ export const performCalculations = async () => {
         worker.on('exit', () => handleExit());
     }
 };
+
+performCalculations();

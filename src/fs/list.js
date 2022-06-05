@@ -19,3 +19,5 @@ export const list = async () => {
         throw e;
     }
 };
+
+list();

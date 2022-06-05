@@ -14,3 +14,5 @@ export const parseArgs = () => {
     const result = parameterList.join(', ');
     console.log(result);
 };
+
+parseArgs();

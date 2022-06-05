@@ -16,3 +16,5 @@ export const remove = async () => {
         throw e;
     }
 };
+
+remove();

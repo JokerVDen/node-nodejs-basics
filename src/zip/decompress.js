@@ -11,3 +11,5 @@ export const decompress = async () => {
     const gzip = createGunzip();
     fs.createReadStream(inputFilePath).pipe(gzip).pipe(writeStream);
 };
+
+decompress();
