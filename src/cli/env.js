@@ -1,3 +1,14 @@
 export const parseEnv = () => {
-    // Write your code here 
-};
+    let rssList = [];
+    for (const key in process.env) {
+        if (key.startsWith('RSS_')) {
+            rssList.push(key + '=' + process.env[key]);
+        }
+    }
+
+    const result = rssList.join('; ')
+
+    console.log(result);
+}
+
+parseEnv();
